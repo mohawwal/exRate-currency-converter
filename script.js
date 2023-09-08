@@ -54,7 +54,7 @@ const table250 = document.querySelector("table .tb250")
 const table500 = document.querySelector("table .tb500")
 const table1000 = document.querySelector("table .tb1000")
 
-tableHeader.innerText = `convert ${fromCurrency.value} to ${toCurrency.value}`
+
 
 
 exchangeIcon.addEventListener('click', ()=> {
@@ -89,7 +89,7 @@ function getExchangeRate() {
     const fromCurrencyCode = fromCurrency.value;
     const toCurrencyCode = toCurrency.value;
 
-
+    tableHeader.innerText = `convert ${fromCurrencyCode} to ${toCurrencyCode}`
 
     
     exchangeRateText = document.querySelector(".exchange-rate")
