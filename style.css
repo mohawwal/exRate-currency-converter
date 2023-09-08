@@ -137,9 +137,13 @@ input {
 }
 
 .select-box select {
-    width: 85%;
+    width: 80%;
     border: none;
     background: none;
+}
+
+.select-box select option {
+    color: black;
 }
 
 .select-box select::-webkit-scrollbar {
