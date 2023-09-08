@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(21, 1, 1);
+    height: 100vh;
+}
+
+header {
+    margin: 30px auto;
+    max-width: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 60px;
+    border: 0.5 px solid red;
+    background-color: red;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(15, 0, 0, 0.9);
+    border: none;
+}
+
+button:hover,
+button:focus {
+    background-color: rgb(62, 1, 1);
+    border: 1px solid rgb(16, 1, 42);
+}
+
+.updateText {
+    margin-bottom: 30px;
+    color: rgb(207, 0, 0);
+    font-weight: 500;
+}
+
+.wrapper {
+    margin: 30px auto;
+    width: 90%;
+}
+
+header {
+    text-align: center;
+}
+
+header h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(55, 0, 0);
+}
+
+.amount {
+    margin: 20px 0;
+}
+
+form .amount p {
+    font-size: 15px;
+    text-align: left;
+}
+
+form {
+    margin: 40px 0;
+}
+
+input {
+    width: 100%;
+    box-shadow: 0px 0px 3px 0px rgb(38, 38, 38, 0.5);
+}
+
+.icon {
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+.icon.rotated {
+    transform: rotate(90deg);
+}
+
+.icon i {
+    border: none;
+    padding: 10px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icon i:hover,
+.icon i:focus {
+    color: rgb(17, 0, 43);
+    background-color: #ededed;
+}
+
+.opt {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.select-box {
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    box-shadow: 0px 0px 2px 0px rgba(2, 6, 75, 0.23);
+
+}
+
+.select-box select {
+    width: 85%;
+    border: none;
+}
+
+.select-box select::-webkit-scrollbar {
+    width: 5px;
+}
+.select-box select::-webkit-scrollbar-track{
+    background: #fff;
+}
+.select-box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #ffffff;
+}
+
+.exRate {
+    border: 1px solid rgb(40, 36, 36, 0.15);
+    height: 40px;
+    padding: 8px;
+    box-shadow: 0px 0px 3px 0px rgb(38, 38, 38, 0.5);
+}
+
+.exchange-rate {
+    margin: 20px 0;
+}
+
+table {
+    margin: 10px auto;
+    width: 95%;
+}
+
+table tr td {
+    padding: 10px;
+    border: 1px  solid rgba(129, 129, 129, 0.15);
+    width: 50%;
+    font-size: 18px;
+}
+
+table tr td:hover {
+    background: #dadada;
+}
+
+.allCurrencies {
+    text-align: center;
+}
+
+.allCurrencies ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: scroll;
+}
+
+.allCurrencies ul li {
+    border: 1px solid rgb(24, 23, 23, 0.20);
+    padding: 5px;
+}
+
+.tableHeader {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+footer {
+    background-color: black;
+    color: wheat;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: right;
+}
+
+@media (min-width: 550px) {
+    header {
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    .wrapper {
+        width: 80%;
+        display: flex;
+        align-items: start;
+        flex-direction: row;
+        gap: 15px;
+
+    }
+    .container {
+        width: 70%;
+    }
+    table {
+        width: 35%;
+    }
+}
+
+@media (min-width: 700px) {
+    .wrapper {
+        width: 70%;
+        gap: 30px;
+    }
+}
+
+@media (min-width: 900px) {
+    header {
+        max-width: 60%;
+    }
+    .wrapper {
+        width: 65%;
+        gap: 30px;
+    }
+}
