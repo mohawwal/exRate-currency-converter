@@ -132,12 +132,14 @@ input {
     justify-content: space-between;
     padding: 3px;
     box-shadow: 0px 0px 2px 0px rgba(2, 6, 75, 0.23);
+    color: black;
 
 }
 
 .select-box select {
     width: 85%;
     border: none;
+    background: none;
 }
 
 .select-box select::-webkit-scrollbar {

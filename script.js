@@ -23,6 +23,14 @@ for (let i =0; i< dropList.length; i++) {
     }
 }
 
+fromCurrency.addEventListener('change', function() {
+    loadFlag(this);
+});
+
+toCurrency.addEventListener('change', function() {
+    loadFlag(this); 
+});
+
 function loadFlag(element) {
     for (let code in country_code) {
 
